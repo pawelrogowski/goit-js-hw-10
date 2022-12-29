@@ -25,13 +25,13 @@ function createPromise(position, delay) {
   });
 }
 const formElement = document.querySelector('.form');
+const submitButton = formElement.querySelector('button[type="submit"]');
 formElement.addEventListener('submit', event => {
   event.preventDefault();
-
+  submitButton.disabled = true;
   const firstDelay = Number(formElement.delay.value);
   const delayStep = Number(formElement.step.value);
   const amount = Number(formElement.amount.value);
-
   for (let i = 0; i < amount; i++) {
     const position = i + 1;
     const delay = firstDelay + delayStep * i;
@@ -43,4 +43,5 @@ formElement.addEventListener('submit', event => {
         Notify.failure(`❌ Rejected promise ${position} in ${delay}ms`);
       });
   }
+  submitButton.disabled = false;
 });
