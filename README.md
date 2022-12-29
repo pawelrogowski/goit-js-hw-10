@@ -1,4 +1,4 @@
-<h1>Acceptance criteria</h1></header><ul><li><code>goit-js-hw-09</code> repository created.</li><li>In your submitted homework, there are two links for each project: to the
+<h1>GPIT-JS-HW-09</h1><h1>Acceptance criteria</h1></header><ul><li><code>goit-js-hw-09</code> repository created.</li><li>In your submitted homework, there are two links for each project: to the
 source files and your working page on <code>GitHub Pages</code>.</li><li>During live page visits, there are no errors or warnings generated in the
 console.</li><li>Project built with
 <a href="https://github.com/goitacademy/parcel-project-template" target="_blank" rel="noopener noreferrer">parcel-project-template</a>.</li><li>Code formatted with <code>Prettier</code>.</li></ul><h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="start-files">Start files<a class="hash-link" href="#start-files" title="Direct link to heading">​</a></h2><p><a href="https://downgit.github.io/#/home?url=https://github.com/goitacademy/javascript-homework/tree/main/v2/09/src" target="_blank" rel="noopener noreferrer">Download the startup files</a>
