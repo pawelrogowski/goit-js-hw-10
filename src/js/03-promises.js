@@ -1,15 +1,15 @@
 /*
 This script does the following:
-- Declares a function that creates a new Promise object with a specified delay and position
+- Declares a function that creates a new Promise object with a specified delay and position.
 - When the form is submitted:
-  - Prevents the default form submission behavior
-  - Gets the values of the 'delay', 'step', and 'amount' input fields
-  - Loops through the specified number of times
+  - Prevents the default form submission behavior.
+  - Gets the values of the 'delay', 'step', and 'amount' input fields.
+  - Loops through the specified number of times.
   - For each iteration:
-    - Calculates the current position and delay
-    - Calls the createPromise function and passes in the current position and delay
-    - If the Promise is resolved, shows a success notification
-    - If the Promise is rejected, shows a failure notification
+    - Calculates the current position and delay.
+    - Calls the createPromise function and passes in the current position and delay.
+    - If the Promise is resolved, shows a success notification.
+    - If the Promise is rejected, shows a failure notification.
 */
 
 import { Notify } from 'notiflix/build/notiflix-notify-aio';

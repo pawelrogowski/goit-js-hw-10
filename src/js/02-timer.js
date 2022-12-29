@@ -1,15 +1,16 @@
 /*
 This code is a countdown timer that:
 
-- Imports libraries for the date and time picker and notification messages
-- Disables the start button by default
-- Initializes the Flatpickr instance with options
-- Defines variables and functions for the countdown timer
+- Imports libraries for the date and time picker and notification messages.
+- Disables the start button by default.
+- Initializes the Flatpickr instance with options.
+- Defines variables and functions for the countdown timer.
 - Adds an event listener to the start button to start the countdown when clicked,
   updating the timer instantly and setting an interval to call the update function every second
-- Calculates the time difference between the target date and time and the current date and time
-  then updates the timer elements with the calculated time difference
-- Stops the countdown when the time difference is 0
+  while disabling the button untill new date is selected.
+- Calculates the time difference between the target date and the current date and time
+  then updates the timer elements with the calculated time difference.
+- Stops the countdown when the time difference is 0.
 */
 
 import flatpickr from 'flatpickr';
