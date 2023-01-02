@@ -1,33 +1,33 @@
 {
-  "name": "parcel-project-template",
+  "name": "goit-js-hw-10",
   "version": "2.0.0",
-  "description": "",
-  "homepage": "https://github.com/pawelrogowski/goit-js-hw-09",
+  "description": "goit-js-hw-10",
+  "homepage": "https://github.com/pawelrogowski/goit-js-hw-10",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-09/"
+    "build": "parcel build src/*.html --public-url /goit-js-hw-10/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pawelrogowski/goit-js-hw-09.git"
+    "url": "git+https://github.com/pawelrogowski/goit-js-hw-10.git"
   },
   "keywords": [],
   "author": "Pawel Rogoowski <pawel.rogowski.praca@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pawelrogowski/goit-js-hw-09/issues"
+    "url": "https://github.com/pawelrogowski/goit-js-hw-10/issues"
   },
   "dependencies": {
     "@vimeo/player": "^2.18.0",
-    "flatpickr": "^4.6.13",
+    "fs": "^0.0.1-security",
+    "fs.promises": "^0.1.2",
     "lodash": "^4.17.21",
     "modern-normalize": "^1.1.0",
-    "notiflix": "^3.2.5",
-    "simplelightbox": "^2.11.0"
+    "notiflix": "^3.2.5"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
-    "parcel": "^2.6.0",
+    "parcel": "^2.8.2",
     "parcel-reporter-clean-dist": "^1.0.4",
     "posthtml-include": "^1.7.4"
   },
